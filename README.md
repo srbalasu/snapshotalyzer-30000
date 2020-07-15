@@ -14,7 +14,8 @@ shotty uses the configuration file created by the AWS CLI e.g.
 
 ##Running
 
-`pipenv run "python shotty/shotty.py <command> <--proect=PROJECT>"`
+`pipenv run "python shotty/shotty.py <command><subcommand> <--proect=PROJECT>"`
 
-*command* is list, stop or start
+*command* is instances, volumes or snapshots
+*subcommand* depends on command
 *project* is optional
